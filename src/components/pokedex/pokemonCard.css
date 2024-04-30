@@ -1,0 +1,119 @@
+.pokecard {
+    position: relative;
+    background-color: rgb(235, 227, 227);
+    width: 250px;
+    border: 5px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.pokecard__back {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+}
+.pokecard__img {
+    width: 70%;
+    z-index: 1;
+}
+.pokecard__type {
+    display: flex;
+}
+.slot2::before {
+    content: '/';
+    margin: 0 5px;
+}
+.pokecard hr {
+    width: 70%;
+    margin: 10px 0;
+}
+.pokecard__slat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.pokecard__slat li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---- Colores -------*/
+.normal {
+    background: linear-gradient(#a8a87a, #b8b8a3);
+    border: #a8a87a;
+}
+.fire {
+    background: linear-gradient(#ee7f32, #dfa277);
+    border: #ee7f32;
+}
+.water {
+    background: linear-gradient(#638fee, #c0cfee);
+    border: #638fee;
+}
+.grass {
+    background: linear-gradient(#77ca43, #8fb07b);
+    border: #79c948;
+}
+.electric {
+    background: linear-gradient(#f7cf31, #f7cf31);
+    border: #f7cf31;
+}
+.ice {
+    background: linear-gradient(#9ad8d9, #9ad8d9);
+    border: #9ad8d9;
+}
+.fighting {
+    background: linear-gradient(#c13029, #d36e69);
+    border: #c13029;
+}
+.poison {
+    background: linear-gradient(#a13f9f, #b97fb8);
+    border: #a13f9f;
+}
+.ground {
+    background: linear-gradient(#e0c06a, #d2c5a1);
+    border: #e0c06a;
+}
+.flying {
+    background: linear-gradient(#058eee, #5883a1);
+    border: #058eee;
+}
+.psychic {
+    background: linear-gradient(#f85988, #a77987);
+    border: #f85988;
+}
+.bug {
+    background: linear-gradient(#abb922, #9ba06c);
+    border: #abb922;
+}
+.rock {
+    background: linear-gradient(#b9a137, #a0945a);
+    border: #b9a137;
+}
+.ghost {
+    background: linear-gradient(#725998, #9184a5);
+    border: #725998;
+}
+.dark {
+    background: linear-gradient(#745747, #a38576);
+    border: #745747;
+}
+.dragon {
+    background: linear-gradient(#7239f9, #846fb5);
+    border: #7239f9; 
+}
+.steel {
+    background: linear-gradient(#a1a1c3, #c0c0ce);
+    border: #b7b7d0;
+}
+.fairy {
+    background: linear-gradient(#f0b7b7, #b59f9f);
+    border: #f0b7b7;
+}

@@ -1,0 +1,17 @@
+.pokeselect {
+    font-size: 25px;
+    padding: 5px 30px;
+    border: none;
+}
+@media (width <= 800px) {
+    .pokeselect {
+        font-size: 20px;
+        padding: 2px 20px;
+    }
+}
+@media (width <= 600px) {
+    .pokeselect {
+        font-size: 18px;
+        padding: 0px 4px;
+    }
+}

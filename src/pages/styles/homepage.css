@@ -1,0 +1,70 @@
+ .homepage {
+    background-color: white;
+    background-image: url(/img/fondopoke1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    min-width: 100vw;
+    min-height: 100vh; 
+    position: relative;
+}
+ .homepage__inicio {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.homepage__saludo1 {
+    color: red;
+    font-size: 36px;
+}
+.homepage__saludo2 {
+    color: black;
+    font-size: 18px;
+} 
+.homepage__inp {
+    box-shadow: -5px 10px 10px 0px rgb(215, 211, 211);
+    border: none;
+    font-size: 18px;
+}
+.homepage__btn {
+    box-shadow: -5px 10px 10px 0px rgb(215, 211, 211);
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 0 15px;
+    font-size: 18px;
+}
+@media (width <= 600px) {
+    .homepage__saludo1 {
+        font-size: 25px;
+    }
+    .homepage__saludo2 {
+        font-size: 12px;
+    }
+    .homepage__inp {
+        padding: 0 8px;
+        font-size: 14px;
+    }
+    .homepage__btn {
+        padding: 0 8px;
+        font-size: 14px;
+    }
+}
+@media (width <= 500px) {
+  .homepage {  
+    background-image: url(/img/fondopoke2.jpg);
+    }
+    .homepage__saludo1 {
+        font-size: 18px;
+    }
+    .homepage__saludo2 {
+        font-size: 10px;
+    }
+    .homepage__inp {
+        width: 200px;
+    }
+    .homepage__btn {
+        width: 200px;
+    }
+}
