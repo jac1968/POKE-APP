@@ -19,7 +19,7 @@ const getType = (url) => {
         .catch(err => console.log(err))
 }
         
-    return  [apiData, getApi, getType, isLoading]
+    return  [apiData, getApi, getType]
 
 }
 
