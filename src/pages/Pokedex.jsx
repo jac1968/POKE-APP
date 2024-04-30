@@ -21,7 +21,7 @@ const Pokedex = () => {
       getType(selectValue) 
     }
     else { 
-      const url = 'https://pokeapi.co/api/v2/pokemon'
+      const url = 'https://pokeapi.co/api/v2/pokemon?limit=3000'
       getPokemons(url) 
     }
   
